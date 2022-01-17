@@ -1,11 +1,40 @@
-head {
+header {
   background-image: url("/img1.webp") ;
   font-family: Helvetica;
   font-size: 100px;
   font-weight: bold;
   color: khaki; 
+  text-align: center;
+}
+
+body{
+  font-family: Helvetica;
+  text-align: justify;
+  font-size: 25px;
 }
 
 h2 {
   font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+h2.green {
+  background-color: mediumspringgreen;
+}
+
+h2.red {
+  background-color: lightcoral;
+}
+
+h2.blue {
+  background-color: skyblue;
+}
+
+aside {
+  font-family: Helvetica;
+  font-weight: bold;
+  color: blue;
 }
